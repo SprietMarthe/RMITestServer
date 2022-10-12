@@ -10,5 +10,6 @@ public interface Counter extends Remote {
 
 // sendMessage()
 // receiveMessage()
+
 // connect()
 // getUserList()
