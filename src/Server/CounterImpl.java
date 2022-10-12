@@ -1,7 +1,11 @@
+package Server;
+
+import Interfaces.Counter;
+
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class CounterImpl extends UnicastRemoteObject implements Counter{
+public class CounterImpl extends UnicastRemoteObject implements Counter {
 
     public CounterImpl () throws RemoteException{}
 
