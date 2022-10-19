@@ -11,7 +11,7 @@ public class Server {
             Registry registry = LocateRegistry.createRegistry(1099);
 
             // create a new service named CounterService
-            registry.rebind("Chatservice", new CounterImpl());
+            registry.rebind("Chatservice", new ChatServiceImpl());
         }
         catch (Exception e) {
             e.printStackTrace();
