@@ -1,14 +1,13 @@
 package Server;
 
-import Interfaces.Counter;
-
+import Interfaces.ChatService;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class CounterImpl extends UnicastRemoteObject implements Counter {
+public class ChatServiceImpl extends UnicastRemoteObject implements ChatService {
 
     private List<String> userlist;
     List<String> messages;
